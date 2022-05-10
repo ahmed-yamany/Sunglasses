@@ -15,13 +15,11 @@ protocol ApiManagerDelegate {
 struct ApiManager{
 //    var delegate: ApiManagerDelegate?
     
-    func FeatchRequest(){
+    
+
+    func performRequest() -> Sunglass?{
         let urlString = "https://amazon24.p.rapidapi.com/api/product"
 
-        _ = self.performRequest(with: urlString)
-    }
-
-    func performRequest(with urlString: String) -> Sunglass?{
         let parameters = [
             "categoryID":"aps","keyword":"sunglasses","country":"US","page":"1"
         ]
@@ -46,15 +44,22 @@ struct ApiManager{
             request.setValue(value, forHTTPHeaderField: key)
         }
 
-        let task = URLSession.shared.dataTask(with: request) { (data, response, error) -> Void in
+        let task = URLSession.shared.dataTask(with: request) { (data, response, error) in
             if error != nil {
 //                self.delegate?.didFailWithError(error: error!)
                 return
             }
             if let safeData = data {
-                if let sunglasses = self.parseJSON(safeData) {
+                                
+                
+                if let sunglasses = self.parseJSON(safeData)
+ {
+                    print(sunglasses)
 //                    self.delegate?.didUpdateWeather(self, sunglass: sunglass)
-                    return sunglasses
+                    return  sunglasses
+                }
+                else{
+                    return
                 }
             }        }
         task.resume()

@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7336D1B9282A245700F1BAD2 /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7336D1B8282A245700F1BAD2 /* ApiManager.swift */; };
+		7336D1BB282A3AA900F1BAD2 /* SunglassData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7336D1BA282A3AA900F1BAD2 /* SunglassData.swift */; };
+		CAF40B5525F1D8E200E094B5 /* Cart.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF40B5425F1D8E200E094B5 /* Cart.swift */; };
+		CAF40B5825F1DCB900E094B5 /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF40B5725F1DCB900E094B5 /* CartViewController.swift */; };
+		CAF40B6225F1E0DB00E094B5 /* CartTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF40B6025F1E0DB00E094B5 /* CartTableViewCell.swift */; };
+		CAF40B6325F1E0DB00E094B5 /* CartTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CAF40B6125F1E0DB00E094B5 /* CartTableViewCell.xib */; };
+		EF31D2B925F16EBE005E6B4E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF31D2B825F16EBE005E6B4E /* AppDelegate.swift */; };
+		EF31D2BB25F16EBE005E6B4E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF31D2BA25F16EBE005E6B4E /* SceneDelegate.swift */; };
+		EF31D2BD25F16EBE005E6B4E /* ShopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF31D2BC25F16EBE005E6B4E /* ShopViewController.swift */; };
+		EF31D2C025F16EBE005E6B4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF31D2BE25F16EBE005E6B4E /* Main.storyboard */; };
+		EF31D2C225F16EC0005E6B4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF31D2C125F16EC0005E6B4E /* Assets.xcassets */; };
+		EF31D2C525F16EC0005E6B4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF31D2C325F16EC0005E6B4E /* LaunchScreen.storyboard */; };
+		EF31D2CE25F193B1005E6B4E /* SunglassCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF31D2CD25F193B1005E6B4E /* SunglassCollectionViewCell.swift */; };
+		EF31D2D125F19535005E6B4E /* Sunglasses.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF31D2D025F19535005E6B4E /* Sunglasses.swift */; };
+		EF31D2DA25F19FE5005E6B4E /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF31D2D925F19FE5005E6B4E /* DetailViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7336D1B8282A245700F1BAD2 /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
+		7336D1BA282A3AA900F1BAD2 /* SunglassData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunglassData.swift; sourceTree = "<group>"; };
+		CAF40B5425F1D8E200E094B5 /* Cart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cart.swift; sourceTree = "<group>"; };
+		CAF40B5725F1DCB900E094B5 /* CartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
+		CAF40B6025F1E0DB00E094B5 /* CartTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartTableViewCell.swift; sourceTree = "<group>"; };
+		CAF40B6125F1E0DB00E094B5 /* CartTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CartTableViewCell.xib; sourceTree = "<group>"; };
+		EF31D2B525F16EBE005E6B4E /* Sunglasses.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sunglasses.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF31D2B825F16EBE005E6B4E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EF31D2BA25F16EBE005E6B4E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EF31D2BC25F16EBE005E6B4E /* ShopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopViewController.swift; sourceTree = "<group>"; };
+		EF31D2BF25F16EBE005E6B4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF31D2C125F16EC0005E6B4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF31D2C425F16EC0005E6B4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF31D2C625F16EC0005E6B4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF31D2CD25F193B1005E6B4E /* SunglassCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunglassCollectionViewCell.swift; sourceTree = "<group>"; };
+		EF31D2D025F19535005E6B4E /* Sunglasses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sunglasses.swift; sourceTree = "<group>"; };
+		EF31D2D925F19FE5005E6B4E /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF31D2B225F16EBE005E6B4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CAF40B5325F1D85A00E094B5 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CAF40B5425F1D8E200E094B5 /* Cart.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		EF31D2AC25F16EBE005E6B4E = {
+			isa = PBXGroup;
+			children = (
+				EF31D2B725F16EBE005E6B4E /* Sunglasses */,
+				EF31D2B625F16EBE005E6B4E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF31D2B625F16EBE005E6B4E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF31D2B525F16EBE005E6B4E /* Sunglasses.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF31D2B725F16EBE005E6B4E /* Sunglasses */ = {
+			isa = PBXGroup;
+			children = (
+				EF31D2D525F19581005E6B4E /* Utilities */,
+				EF31D2D325F19545005E6B4E /* Models */,
+				CAF40B5325F1D85A00E094B5 /* ViewModel */,
+				EF31D2D725F195A0005E6B4E /* ViewController */,
+				EF31D2D425F1955D005E6B4E /* Views */,
+				EF31D2BE25F16EBE005E6B4E /* Main.storyboard */,
+				EF31D2C625F16EC0005E6B4E /* Info.plist */,
+			);
+			path = Sunglasses;
+			sourceTree = "<group>";
+		};
+		EF31D2D325F19545005E6B4E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EF31D2D025F19535005E6B4E /* Sunglasses.swift */,
+				7336D1B8282A245700F1BAD2 /* ApiManager.swift */,
+				7336D1BA282A3AA900F1BAD2 /* SunglassData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EF31D2D425F1955D005E6B4E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EF31D2C325F16EC0005E6B4E /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EF31D2D525F19581005E6B4E /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				EF31D2C125F16EC0005E6B4E /* Assets.xcassets */,
+				EF31D2B825F16EBE005E6B4E /* AppDelegate.swift */,
+				EF31D2BA25F16EBE005E6B4E /* SceneDelegate.swift */,
+				EF31D2CD25F193B1005E6B4E /* SunglassCollectionViewCell.swift */,
+				CAF40B6025F1E0DB00E094B5 /* CartTableViewCell.swift */,
+				CAF40B6125F1E0DB00E094B5 /* CartTableViewCell.xib */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		EF31D2D725F195A0005E6B4E /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				EF31D2BC25F16EBE005E6B4E /* ShopViewController.swift */,
+				CAF40B5725F1DCB900E094B5 /* CartViewController.swift */,
+				EF31D2D925F19FE5005E6B4E /* DetailViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF31D2B425F16EBE005E6B4E /* Sunglasses */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF31D2C925F16EC0005E6B4E /* Build configuration list for PBXNativeTarget "Sunglasses" */;
+			buildPhases = (
+				EF31D2B125F16EBE005E6B4E /* Sources */,
+				EF31D2B225F16EBE005E6B4E /* Frameworks */,
+				EF31D2B325F16EBE005E6B4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sunglasses;
+			productName = Sunglasses;
+			productReference = EF31D2B525F16EBE005E6B4E /* Sunglasses.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF31D2AD25F16EBE005E6B4E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					EF31D2B425F16EBE005E6B4E = {
+						CreatedOnToolsVersion = 12.1;
+					};
+				};
+			};
+			buildConfigurationList = EF31D2B025F16EBE005E6B4E /* Build configuration list for PBXProject "Sunglasses" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF31D2AC25F16EBE005E6B4E;
+			productRefGroup = EF31D2B625F16EBE005E6B4E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF31D2B425F16EBE005E6B4E /* Sunglasses */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF31D2B325F16EBE005E6B4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF31D2C525F16EC0005E6B4E /* LaunchScreen.storyboard in Resources */,
+				EF31D2C225F16EC0005E6B4E /* Assets.xcassets in Resources */,
+				EF31D2C025F16EBE005E6B4E /* Main.storyboard in Resources */,
+				CAF40B6325F1E0DB00E094B5 /* CartTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF31D2B125F16EBE005E6B4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF31D2CE25F193B1005E6B4E /* SunglassCollectionViewCell.swift in Sources */,
+				EF31D2BD25F16EBE005E6B4E /* ShopViewController.swift in Sources */,
+				7336D1B9282A245700F1BAD2 /* ApiManager.swift in Sources */,
+				EF31D2B925F16EBE005E6B4E /* AppDelegate.swift in Sources */,
+				CAF40B6225F1E0DB00E094B5 /* CartTableViewCell.swift in Sources */,
+				CAF40B5525F1D8E200E094B5 /* Cart.swift in Sources */,
+				CAF40B5825F1DCB900E094B5 /* CartViewController.swift in Sources */,
+				EF31D2DA25F19FE5005E6B4E /* DetailViewController.swift in Sources */,
+				7336D1BB282A3AA900F1BAD2 /* SunglassData.swift in Sources */,
+				EF31D2BB25F16EBE005E6B4E /* SceneDelegate.swift in Sources */,
+				EF31D2D125F19535005E6B4E /* Sunglasses.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EF31D2BE25F16EBE005E6B4E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF31D2BF25F16EBE005E6B4E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF31D2C325F16EC0005E6B4E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF31D2C425F16EC0005E6B4E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF31D2C725F16EC0005E6B4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EF31D2C825F16EC0005E6B4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF31D2CA25F16EC0005E6B4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2HB3YHCHVH;
+				INFOPLIST_FILE = Sunglasses/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Sunglasses;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF31D2CB25F16EC0005E6B4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2HB3YHCHVH;
+				INFOPLIST_FILE = Sunglasses/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Sunglasses;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF31D2B025F16EBE005E6B4E /* Build configuration list for PBXProject "Sunglasses" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF31D2C725F16EC0005E6B4E /* Debug */,
+				EF31D2C825F16EC0005E6B4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF31D2C925F16EC0005E6B4E /* Build configuration list for PBXNativeTarget "Sunglasses" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF31D2CA25F16EC0005E6B4E /* Debug */,
+				EF31D2CB25F16EC0005E6B4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF31D2AD25F16EBE005E6B4E /* Project object */;
+}

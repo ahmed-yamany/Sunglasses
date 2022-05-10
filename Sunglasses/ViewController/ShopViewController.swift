@@ -12,7 +12,7 @@ class ShopViewController: UIViewController {
         super.viewDidLoad()
         collectView.dataSource = self
         collectView.delegate = self
-        apiManager.FeatchRequest()
+        apiManager.performRequest()
 
     }
 
